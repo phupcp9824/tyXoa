@@ -33,10 +33,10 @@
             btnLogin = new Button();
             txtPassword = new TextBox();
             txtUsername = new TextBox();
-            button1 = new Button();
-            dataGridView1 = new DataGridView();
             checkedListBox1 = new CheckedListBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            colorDialog1 = new ColorDialog();
+            groupBox1 = new GroupBox();
+            panel1 = new Panel();
             SuspendLayout();
             // 
             // checkPassword
@@ -88,24 +88,6 @@
             txtUsername.Size = new Size(292, 38);
             txtUsername.TabIndex = 5;
             // 
-            // button1
-            // 
-            button1.Location = new Point(546, 74);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 10;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(39, 24);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(474, 154);
-            dataGridView1.TabIndex = 11;
-            // 
             // checkedListBox1
             // 
             checkedListBox1.FormattingEnabled = true;
@@ -114,14 +96,30 @@
             checkedListBox1.Size = new Size(150, 114);
             checkedListBox1.TabIndex = 12;
             // 
+            // groupBox1
+            // 
+            groupBox1.Location = new Point(353, 72);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(250, 125);
+            groupBox1.TabIndex = 13;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "groupBox1";
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(440, 508);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(250, 125);
+            panel1.TabIndex = 14;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(820, 661);
+            Controls.Add(panel1);
+            Controls.Add(groupBox1);
             Controls.Add(checkedListBox1);
-            Controls.Add(dataGridView1);
-            Controls.Add(button1);
             Controls.Add(checkPassword);
             Controls.Add(btnCancel);
             Controls.Add(btnLogin);
@@ -129,7 +127,6 @@
             Controls.Add(txtUsername);
             Name = "Form2";
             Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -141,8 +138,9 @@
         private Button btnLogin;
         private TextBox txtPassword;
         private TextBox txtUsername;
-        private Button button1;
-        private DataGridView dataGridView1;
         private CheckedListBox checkedListBox1;
+        private ColorDialog colorDialog1;
+        private GroupBox groupBox1;
+        private Panel panel1;
     }
 }
