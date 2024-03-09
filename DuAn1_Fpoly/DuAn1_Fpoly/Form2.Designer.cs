@@ -35,6 +35,7 @@
             txtUsername = new TextBox();
             button1 = new Button();
             dataGridView1 = new DataGridView();
+            checkedListBox1 = new CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -105,11 +106,20 @@
             dataGridView1.Size = new Size(474, 154);
             dataGridView1.TabIndex = 11;
             // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Location = new Point(600, 217);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(150, 114);
+            checkedListBox1.TabIndex = 12;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(820, 661);
+            Controls.Add(checkedListBox1);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(checkPassword);
@@ -133,5 +143,6 @@
         private TextBox txtUsername;
         private Button button1;
         private DataGridView dataGridView1;
+        private CheckedListBox checkedListBox1;
     }
 }
