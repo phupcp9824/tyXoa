@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\xoa\\tyXoa\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj": {}
+    "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\Dự_án_1\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj": {}
   },
   "projects": {
-    "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\xoa\\tyXoa\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj": {
+    "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\Dự_án_1\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\xoa\\tyXoa\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj",
+        "projectUniqueName": "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\Dự_án_1\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj",
         "projectName": "DuAn1_Fpoly",
-        "projectPath": "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\xoa\\tyXoa\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj",
+        "projectPath": "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\Dự_án_1\\DuAn1_Fpoly\\DuAn1_Fpoly\\DuAn1_Fpoly.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\xoa\\tyXoa\\DuAn1_Fpoly\\DuAn1_Fpoly\\obj\\",
+        "outputPath": "E:\\fpt fpolytechnic\\học kỳ 4\\Block2\\Dự_án_1\\DuAn1_Fpoly\\DuAn1_Fpoly\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -33,10 +33,8 @@
             btnLogin = new Button();
             txtPassword = new TextBox();
             txtUsername = new TextBox();
-            checkedListBox1 = new CheckedListBox();
-            colorDialog1 = new ColorDialog();
-            groupBox1 = new GroupBox();
-            panel1 = new Panel();
+            progressBar1 = new ProgressBar();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // checkPassword
@@ -88,38 +86,27 @@
             txtUsername.Size = new Size(292, 38);
             txtUsername.TabIndex = 5;
             // 
-            // checkedListBox1
+            // progressBar1
             // 
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(600, 217);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(150, 114);
-            checkedListBox1.TabIndex = 12;
+            progressBar1.Location = new Point(308, 101);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(125, 29);
+            progressBar1.TabIndex = 10;
             // 
-            // groupBox1
+            // textBox1
             // 
-            groupBox1.Location = new Point(353, 72);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(250, 125);
-            groupBox1.TabIndex = 13;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(440, 508);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(250, 125);
-            panel1.TabIndex = 14;
+            textBox1.Location = new Point(502, 103);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 11;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(820, 661);
-            Controls.Add(panel1);
-            Controls.Add(groupBox1);
-            Controls.Add(checkedListBox1);
+            Controls.Add(textBox1);
+            Controls.Add(progressBar1);
             Controls.Add(checkPassword);
             Controls.Add(btnCancel);
             Controls.Add(btnLogin);
@@ -138,9 +125,7 @@
         private Button btnLogin;
         private TextBox txtPassword;
         private TextBox txtUsername;
-        private CheckedListBox checkedListBox1;
-        private ColorDialog colorDialog1;
-        private GroupBox groupBox1;
-        private Panel panel1;
+        private ProgressBar progressBar1;
+        private TextBox textBox1;
     }
 }
