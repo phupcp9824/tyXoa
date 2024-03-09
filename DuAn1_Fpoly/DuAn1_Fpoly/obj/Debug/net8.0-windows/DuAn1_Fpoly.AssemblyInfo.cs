@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DuAn1_Fpoly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+865a6e4aa415111e0c35d41084268b877fc1d425")]
 [assembly: System.Reflection.AssemblyProductAttribute("DuAn1_Fpoly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DuAn1_Fpoly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
