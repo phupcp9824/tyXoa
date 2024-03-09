@@ -33,6 +33,9 @@
             btnLogin = new Button();
             txtPassword = new TextBox();
             txtUsername = new TextBox();
+            button1 = new Button();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // checkPassword
@@ -84,11 +87,31 @@
             txtUsername.Size = new Size(292, 38);
             txtUsername.TabIndex = 5;
             // 
+            // button1
+            // 
+            button1.Location = new Point(546, 74);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 10;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(39, 24);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(474, 154);
+            dataGridView1.TabIndex = 11;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(820, 661);
+            Controls.Add(dataGridView1);
+            Controls.Add(button1);
             Controls.Add(checkPassword);
             Controls.Add(btnCancel);
             Controls.Add(btnLogin);
@@ -96,6 +119,7 @@
             Controls.Add(txtUsername);
             Name = "Form2";
             Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -107,5 +131,7 @@
         private Button btnLogin;
         private TextBox txtPassword;
         private TextBox txtUsername;
+        private Button button1;
+        private DataGridView dataGridView1;
     }
 }
